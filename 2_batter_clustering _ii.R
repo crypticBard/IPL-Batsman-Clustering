@@ -146,16 +146,7 @@ plot(df_filtered,col=clusterdf_scaled$clust5_scaled)
 clusterdf<- data.frame( batter= df_filtered$batter, clust5=km5$cluster ) 
 View( clusterdf )
 
-## Visualization ### 
 
-names(df_filtered)
-
-# this plots every column vs every column
-plot(df_filtered,col=clusterdf$clut5_scaled)
-
-# one of the above plots 
-
-plot( df_filtered$coeffvariance_runs_m~df_filtered$pct_runsfrom_boundaries,col=clusterdf$clut5_scaled)
 
 
 ############# END 
